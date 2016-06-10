@@ -1,0 +1,17 @@
+
+public class mapa {
+
+	public static void main(String[] args) {
+	
+		String text = "Buenos Dias";
+		
+		String[] palabras = text.split ("");
+		
+		for (int i = 0 ; i < palabras.length; i++)
+		{
+			
+		System.out.print(palabras[i]);
+		}
+	}
+
+}

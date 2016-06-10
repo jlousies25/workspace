@@ -1,0 +1,41 @@
+package cl.curso.java.control_cinco.jsilva;
+
+public class Departamento {
+
+	private String nombre;
+	private String descripcion;
+	
+	public Departamento() {
+		super();
+		}
+
+	public Departamento(String nombre, String descripcion) {
+		super();
+		this.nombre = nombre;
+		this.descripcion = descripcion;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+	
+	public boolean equals(Object obj) {
+		if (obj instanceof Transaccion) {
+			Transaccion transaccion = (Transaccion) obj;
+			return this.getTipo().equals(transaccion.getTipo());
+		}
+		return false;
+	
+}

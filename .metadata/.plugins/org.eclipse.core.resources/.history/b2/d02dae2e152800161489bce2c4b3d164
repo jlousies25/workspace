@@ -1,0 +1,49 @@
+package cl.clase.java.guia12;
+
+import java.util.ArrayList;
+
+public class CarroDeCompra {
+
+	private Usuario usuario;
+	private ArrayList <Producto> producto;
+	
+	public CarroDeCompra() {
+		super();
+		}
+
+	public CarroDeCompra(Usuario usuario, ArrayList<Producto> producto) {
+		super();
+		this.usuario = usuario;
+		this.producto = producto;
+	}
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+
+	public ArrayList<Producto> getProducto() {
+		return producto;
+	}
+
+	public void setProducto(ArrayList<Producto> producto) {
+		this.producto = producto;
+	}
+	
+	public void agregarProducto (Producto producto){
+		this.getProducto().add(producto);
+	}
+	
+	public void eliminarProducto (Producto producto){
+		this.getProducto().remove(producto);
+	}
+	 
+	public void ordenarPorPrecio (){
+		
+		
+	}
+	
+}

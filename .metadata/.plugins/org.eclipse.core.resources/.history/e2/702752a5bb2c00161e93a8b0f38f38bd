@@ -1,0 +1,19 @@
+import java.sql.PreparedStatement;
+
+public class Pueba {
+
+	public static void main(String[] args) {
+		
+		PreparedStatement pstatementInsert = conexion.prepareStatement("Insert INTO alumnos (idalumno, nombre, apellido, apellidoMaterno)
+				" + " VALUES (?,?,?,?);");
+				
+		pstatementInsert.setInt(1, 12);
+		pstatementInsert.setString(2, "James");
+		pstatementInsert.setString(3, "Gosling");
+		pstatementInsert.setString(4, "Lion");
+		int resultpInsert = pstatementInsert.executeUpdate();
+		System.out.println(resultpInsert);
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;cl.curso.java.control_cinco.jsilva.Departamente.java&apos; to &apos;Departamento.java&apos;&#x0D;&#x0A;- Original project: &apos;Control5&apos;&#x0D;&#x0A;- Original element: &apos;cl.curso.java.control_cinco.jsilva.Departamente.java&apos;&#x0D;&#x0A;- Renamed element: &apos;cl.curso.java.control_cinco.jsilva.Departamento.java&apos;" description="Rename compilation unit &apos;Departamente.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;cl.curso.java.control_cinco.jsilva{Departamente.java" name="Departamento.java" references="false" stamp="1465221569181" version="1.0"/>
+</session>
